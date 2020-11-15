@@ -1,0 +1,13 @@
+File System in PhP
+
+1. __FILE__ | Constant that contains file derectory | Ex.(xampp) echo __FILE__ ; Output: C:\xampp\htdocs\phppractice\index.php
+	Ex. (www.nisarul.com) echo __FILE__ ; Output: /home/nisarul1/public_html/others/assignment/php/test.php
+2. basename("directory") | Function | Ex. echo basename("nisarul.com/assignment/class-32.php"); | Output: class-32.php
+	Ex. echo basename("__FILE__"); | Output: index.php
+3. dirname("directory") | Function | Ex. echo dirname("nisarul.com/assignment/class-32.php"); | Output: nisarul.com/assignment
+	Ex. echo dirname("__FILE__"); | Output:  C:\xampp\htdocs\phppractice
+.'. __FILE__ = dirname("__FILE__") + basename("__FILE__")
+
+4. file_put_contents('index.txt', 'This sentence will be added or set to index.txt');
+	Ex. file_put_contents('backup.zip', fopen('http://wordpress.org/latest.zip', 'r') );
+5. 
