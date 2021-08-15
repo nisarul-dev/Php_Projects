@@ -1,0 +1,42 @@
+1. SHOW DATABASES;
+
+
+2. CREATE DATABASE joshim;
+
+
+3. CREATE TABLE students(id INT AUTO_INCREMENT, name VARCHAR(255), PRIMARY KEY (order_id));
+
+
+4. INSERT INTO students VALUES(NULL, 'sujan');
+
+
+5. UPDATE students SET biography = 'this is biography' WHERE id = 47;
+
+
+6. DELETE FROM students WHERE id = 46;
+
+mysql.exe -h localhost -u root -p
+
+create database sahabaj
+
+DROP DATABASE sahabaj
+
+use shahbaj;
+
+describe shahbaj;
+
+select * from student_details
+
+select Roll, Name from student_details ORDER BY Name desc;
+
+------------------------------------------------
+
+SELECT orders.order_id, customers.id, customers.Name, orders.Cost FROM orders INNER JOIN customers ON orders.customer_id=customers.id;
+
+
+
+
+
+
+
+
